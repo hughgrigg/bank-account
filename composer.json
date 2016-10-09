@@ -1,0 +1,29 @@
+{
+    "name": "hughgrigg/bank-account",
+    "description": "Bank Account Demo",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Hugh Grigg",
+            "email": "hugh.grigg@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Bank\\": "src/",
+            "Test\\": "tests/"
+        }
+    },
+    "require": {
+        "php": "^7.0",
+        "ext-intl": "*",
+        "roave/security-advisories": "dev-master",
+        "cilex/cilex": "^2.0",
+        "moneyphp/money": "^3.0",
+        "illuminate/support": "^5.3",
+        "nesbot/carbon": "^1.21"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.6"
+    }
+}
